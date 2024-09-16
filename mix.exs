@@ -2,7 +2,7 @@ defmodule Licensir.Mixfile do
   use Mix.Project
 
   @source_url "https://github.com/unnawut/licensir"
-  @version "0.7.0"
+  @version "0.7.1"
 
   def project do
     [
@@ -51,7 +51,7 @@ defmodule Licensir.Mixfile do
   defp docs do
     [
       extras: [
-        "LICENSE": [title: "License"],
+        LICENSE: [title: "License"],
         "README.md": [title: "Overview"]
       ],
       main: "readme",
