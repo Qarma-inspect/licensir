@@ -10,7 +10,7 @@ defmodule Licensir.Mix.Tasks.LicensesTest do
 
     expected =
       IO.ANSI.format_fragment([
-        [:yellow, "Notice: This is not a legal advice. Use the information below at your own risk."], :reset, "\n",
+        ["==> dep_license_undefined\n", :yellow, "Notice: This is not a legal advice. Use the information below at your own risk."], :reset, "\n",
         "+-----------------------------------+---------+----------------------------------------------------+", "\n",
         "| Package                           | Version | License                                            |", "\n",
         "+-----------------------------------+---------+----------------------------------------------------+", "\n",
